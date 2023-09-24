@@ -15,11 +15,17 @@ router.post('/login', passport.authenticate('login', { failureRedirect: '/api/se
     res.send({ status: "success", message: "logeado correctamente" });
 })
 
+// EndPoints para autenticacion de terceros
+router.get('/github', passport.authenticate('github'), (req, res) => { })   //Trigger de mi estartegia de passport
+router.get('/githubcallback', passport.authenticate('github'), (req, res) => {
+    req.session.user = req.user;
+    res.redirect('/products');
+})
+
 //EndPoint para redirigis cualquier error del proceso de autenticacion
 router.get('/authFail', (req, res) => {
     res.status(401).send({ status: "error", error: "Error de autenticacion" })
 })
-
 
 // EndPoint para Finalizar la session
 router.get('/logout', async (req, res) => {
