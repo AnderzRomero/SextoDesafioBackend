@@ -3,7 +3,7 @@ Este es un proyecto de ecommerce básico que se utiliza para el curso de Program
 
 ## Tecnologías utilizadas
 - Node.JS   ----->  `npm init -y` 
-- Paquetes a instalar de npm   ----->  `npm install express express-handlebars nodemon mongoose multer dotenv mongoose-paginate-v2 cookie-parser express-session connect-mongo`
+- Paquetes a instalar de npm   ----->  `npm install express express-handlebars nodemon mongoose multer dotenv mongoose-paginate-v2 cookie-parser express-session connect-mongo bcrypt passport passport-local`
 
 ## Funcionalidades
 ### algunas desde el Frontend y otras desde POSTMAN
@@ -20,7 +20,7 @@ Este es un proyecto de ecommerce básico que se utiliza para el curso de Program
 > 1. Clona el repositorio a tu máquina local.
 > 2. Abre una terminal en el directorio del proyecto.
 > 3. Ejecuta el comando `npm init -y` para generar los paquetes del proyecto.
-> 4. Ejecuta el comando `npm install express express-handlebars socket.io nodemon mongoose multer dotenv mongoose-paginate-v2 cookie-parser express-session connect-mongo` para instalar las dependencias necesarias para el funcionamiento.
+> 4. Ejecuta el comando `npm install express express-handlebars socket.io nodemon mongoose multer dotenv mongoose-paginate-v2 cookie-parser express-session connect-mongo bcrypt passport passport-local` para instalar las dependencias necesarias para el funcionamiento.
 > 5. Ejecuta el comando `npm run dev`  para iniciar la aplicación.
 > 7. Abre tu navegador y navega a http://localhost:8080 para ver la aplicación en acción.
 

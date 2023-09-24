@@ -9,6 +9,8 @@ import __dirname from "./utils.js"
 import cookieParser from "cookie-parser";
 import session from 'express-session';
 import MongoStore from 'connect-mongo';
+import passport from "passport";
+import initializeStrategies from "./config/passport.config.js";
 
 
 const app = express();
@@ -29,6 +31,9 @@ app.use(session({
   resave: true,
   saveUninitialized: false
 }))
+
+initializeStrategies();
+app.use(passport.initialize());
 
 //configuracion de handlebars
 app.engine("handlebars", handlebars.engine());
