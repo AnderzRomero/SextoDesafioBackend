@@ -1,0 +1,41 @@
+<h1 class="container-fluid">Lista de Productos</h1>
+<h2 class="container-fluid">Bienvenido {{user.firstName}} {{user.lastName}} Tienes el rol de :{{user.role}}</h2>
+<a href="/api/sessions/logout"><button>Cerrar Session</button></a>
+<br>
+
+{{#if category}}
+<p>Category: {{category}}</p>
+{{/if}}
+
+{{#if status}}
+<p>Status: {{status}}</p>
+{{/if}}
+
+{{#each filterProducts}}
+<br>
+<div class="container card">
+    <div class="card-body">
+        <img class="card-img" src={{this.thumbnail}} alt={{this.title}}>
+        <h5 class="card-title">{{this.title}}</h5>
+        <div class="card-info">
+            <p class="card-text">{{this.description}}</p>
+            <p class="card-text"><strong>Categoría: </strong>{{this.category}}</p>
+            <p class="card-text"><strong>Código:</strong> {{this.code}}</p>
+            <p class="card-text"><strong>Stock:</strong> {{this.stock}}</p>
+            <p class="card-text"><strong>Precio: $ </strong>{{this.price}}</p>
+        </div>
+    </div>
+</div>
+<br>
+<button>Agregar al Carrito</button>
+{{/each}}
+
+{{#if hasPrevPage}}
+<a href="/products?page={{prevPage}}">Anterior</a>
+{{/if}}
+
+<h5>PAGINA: {{page}}</h5>
+
+{{#if hasNextPage}}
+<a href="/products?page={{nextPage}}">Siguiente</a>
+{{/if}}

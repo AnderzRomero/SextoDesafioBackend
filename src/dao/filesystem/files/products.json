@@ -1,0 +1,102 @@
+[
+    {
+        "title": "Caja",
+        "description": "Gabinete de torre mediana de alto rendimiento con un diseño de panel frontal de vidrio templado y un panel lateral de vidrio templado completo, lo que le permite exhibir el interior de su equipo.",
+        "price": 490000,
+        "thumbnail": "https://res.cloudinary.com/dwzibscrm/image/upload/v1692677341/Caja_pik2py.png",
+        "category": "Cajas",
+        "code": "ABC122",
+        "stock": 20,
+        "id": 1
+    },
+    {
+        "title": "Portatil",
+        "description": "PORTATIL ACER NITRO 5 AN515 CORE i5 11400H 8G RAM SATA SSD512 4G GTX-1650 15,6″FULL HD W11 NEGRO",
+        "price": 4016000,
+        "thumbnail": "https://res.cloudinary.com/dwzibscrm/image/upload/v1692677341/Portatil_jq9m7a.png",
+        "category": "Portatiles",
+        "code": "ABC123",
+        "stock": 10,
+        "id": 2
+    },
+    {
+        "title": "Board",
+        "description": "BOARD AMD ASROCK A520M-HDV Micro USB3 A.V.R Pciexp 2 DDR 4 RYZ",
+        "price": 700000,
+        "thumbnail": "https://res.cloudinary.com/dwzibscrm/image/upload/v1692677341/Board_yysc8s.png",
+        "category": "Boards",
+        "code": "ABC124",
+        "stock": 7,
+        "id": 3
+    },
+    {
+        "title": "Teclado",
+        "description": "teclado inalámbrico para juegos K57 RGB, que presenta SLIPSTREAM WIRELESS de menos de 1 ms y una brillante retroiluminación RGB por tecla de los LED CAPELLIX",
+        "price": 458000,
+        "thumbnail": "https://res.cloudinary.com/dwzibscrm/image/upload/v1692677342/Teclado_xkbfbc.png",
+        "category": "Teclados",
+        "code": "ABC125",
+        "stock": 8,
+        "id": 4
+    },
+    {
+        "title": "Mouse Gamer Trust",
+        "description": "MOUSE GAMER TRUST YVI FX INALAMBRICO RGB BLANCO",
+        "price": 57000,
+        "thumbnail": "https://res.cloudinary.com/dwzibscrm/image/upload/v1692677341/Mouse_nrz5sf.png",
+        "category": "Mouses",
+        "code": "ABC126",
+        "stock": 20,
+        "id": 5
+    },
+    {
+        "title": "Disco SSD",
+        "description": "UNIDAD DE ESTADO SOLIDO M.2 VIPER PATRIOT VPR400 512GB GEN4 X4 RGB 4600 X 3600",
+        "price": 367000,
+        "thumbnail": "https://res.cloudinary.com/dwzibscrm/image/upload/v1692677341/Disco_iganpw.png",
+        "category": "Discos",
+        "code": "ABC127",
+        "stock": 10,
+        "id": 6
+    },
+    {
+        "title": "Memoria Ram",
+        "description": "MEMORIA RAM DDR4 8G 3200 CORSAIR VENGEANCE RGB RS",
+        "price": 215000,
+        "thumbnail": "https://res.cloudinary.com/dwzibscrm/image/upload/v1692677341/Memoria_vwuuia.png",
+        "category": "Memorias",
+        "code": "ABC128",
+        "stock": 10,
+        "id": 7
+    },
+    {
+        "title": "Monitor",
+        "description": "MONITOR LED ASUS 28″ GAMING (UHD-DP-1MS-HDMI ) VP28UQG 4K",
+        "price": 1601000,
+        "thumbnail": "https://res.cloudinary.com/dwzibscrm/image/upload/v1692677341/Monitor_yveq82.png",
+        "category": "Monitores",
+        "code": "ABC129",
+        "stock": 10,
+        "id": 8
+    },
+    {
+        "title": "Mouse Logitech G502",
+        "description": "MOUSE LOGITECH G502 LIGTHSPEED INALÁMBRICO GAMING",
+        "price": 499000,
+        "thumbnail": "https://res.cloudinary.com/dwzibscrm/image/upload/v1692678965/Mouse2_kumyhb.png",
+        "category": "Mouses",
+        "code": "ABC130",
+        "stock": 15,
+        "id": 9
+    },
+    {
+        "title": "Pad Mouse Logitech G240",
+        "description": "Pad mouse con textura de superficie optimizada para una precisión óptima y un control suave.",
+        "price": 45000,
+        "thumbnail": "https://res.cloudinary.com/dwzibscrm/image/upload/v1692678965/PadMouse_xeujpn.png",
+        "category": "Accesorios",
+        "code": "ABC131",
+        "stock": 30,
+        "id": 10
+    }
+]
